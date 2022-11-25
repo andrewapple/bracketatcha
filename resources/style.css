@@ -47,19 +47,15 @@ img:hover {
     visibility: hidden;
 }
 
-#firstwin {
+#fwin2 {
     visibility: hidden;
 }
 
-#fwin2, #firstwin {
+#fwin3 {
     visibility: hidden;
 }
 
-#fwin3, #secondwin {
-    visibility: hidden;
-}
-
-#fwin4, #secondwin {
+#fwin4 {
     visibility: hidden;
 }
 
