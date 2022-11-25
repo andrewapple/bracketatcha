@@ -21,7 +21,7 @@ h2 {
 
 table {
     text-align: center;
-    width: 100%;
+    width: 100%
 }
 
 th {
@@ -47,15 +47,19 @@ img:hover {
     visibility: hidden;
 }
 
-#fwin2 {
+#firstwin {
     visibility: hidden;
 }
 
-#fwin3 {
+#fwin2, #firstwin {
     visibility: hidden;
 }
 
-#fwin4 {
+#fwin3, #secondwin {
+    visibility: hidden;
+}
+
+#fwin4, #secondwin {
     visibility: hidden;
 }
 
@@ -74,7 +78,6 @@ img:hover {
 #fwin8 {
     visibility: hidden;
 }
-
 
 .spot {
     /* border: 5px solid red; */
@@ -141,6 +144,7 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 
 #finalistone {
     border: 5px solid black;
+    height: 150px;
 }
 
 #finalisttwo {
