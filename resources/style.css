@@ -1,0 +1,152 @@
+@font-face { font-family: 'ChunkFive'; src: url('fonts/chunk-master/Chunk.otf'); } 
+@font-face { font-family: 'ChunkFive'; font-weight: bold; src: url('fonts/chunk-master/Chunk.otf');}
+
+html {
+    background-color: #f4e8da;
+}
+
+h1 {
+    font-family: ChunkFive;
+    font-size: 5rem;
+    text-align: center;
+    color: #2b8467;
+}
+
+h2 {
+    font-family: 'Charm', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -4.25rem;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: brown;
+}
+
+/* td {
+    padding: 0 20px;
+} */
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#fwin1 {
+    visibility: hidden;
+}
+
+#fwin2 {
+    visibility: hidden;
+}
+
+#fwin3 {
+    visibility: hidden;
+}
+
+#fwin4 {
+    visibility: hidden;
+}
+
+#fwin5 {
+    visibility: hidden;
+}
+
+#fwin6 {
+    visibility: hidden;
+}
+
+#fwin7 {
+    visibility: hidden;
+}
+
+#fwin8 {
+    visibility: hidden;
+}
+
+
+.spot {
+    /* border: 5px solid red; */
+    height: 75px;
+    width: 80px;
+}
+
+table #eightseed, #fiveseed, #sixseed, #sevenseed {
+    border-bottom: 5px solid black;
+}
+
+
+/* #oneseed {
+    background-color: goldenrod;
+}
+
+#eightseed {
+    background-color: black;
+}
+
+#fourseed {
+    background-color: goldenrod;
+}
+
+#fiveseed {
+    background-color: black;
+}
+
+#threeseed {
+    background-color: goldenrod;
+}
+
+#sixseed {
+    background-color: black;
+}
+
+#twoseed {
+    background-color: goldenrod;
+}
+
+#sevenseed {
+    background-color: black;
+} */
+
+#firstwinner {
+    /* background-color: blueviolet; */
+    border: 5px solid black;
+}
+
+#secondwinner {
+    /* background-color: blueviolet; */
+    border: 5px solid black;
+}
+
+#thirdwinner {
+    /* background-color: blueviolet; */
+    border: 5px solid black;
+}
+
+#fourthwinner {
+    /* background-color: blueviolet; */
+    border: 5px solid black;
+}
+
+#finalistone {
+    border: 5px solid black;
+}
+
+#finalisttwo {
+    border: 5px solid black;
+}
+
+#goat {
+    border: 5px solid black;
+}

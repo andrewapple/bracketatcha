@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="resources/style.css" >
+        <title>Bracketatcha!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>BRACKETATCHA!</h1>
+        <h2>slowly going the way of the bracket</h2>
+
+        <!-- USING A TABLE TO MAKE A BRACKET -->
+        <table>
+            <tr>
+                <th>ROUND ONE</th>
+                <th>SEMIS</th>
+                <th>FINALS</th>
+                <th>GOAT</th>
+            </tr>
+            <tr class="rowone">
+                <td class="spot"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowtwo">
+                <td rowspan="2" class="spot" onclick="pick('fwin1', 'fwin2')" id="oneseed"><img src="resources/albums/3.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowthree">
+                <td rowspan="2" class="spot" id="firstwinner"><img id="fwin1" src="resources/albums/3.png"><img id="fwin2" src="resources/albums/6.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowfour">
+                <td rowspan="2" class="spot" onclick="pick('fwin2', 'fwin1')" id="eightseed"><img src="resources/albums/6.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowfive">
+                <td class="spot"></td>
+                <td rowspan="2" class="spot" id="finalistone"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowsix">
+                <td rowspan="2" class="spot" onclick="pick('fwin3', 'fwin4')" id="fourseed"><img src="resources/albums/5.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowseven">
+                <td rowspan="2" class="spot" id="secondwinner"><img id="fwin3" src="resources/albums/5.png"><img id="fwin4" src="resources/albums/8.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="roweight">
+                <td rowspan="2" class="spot" onclick="pick('fwin4', 'fwin3')" id="fiveseed"><img src="resources/albums/8.png"></td>
+                <td class="spot"></td>
+                <td rowspan="4" class="spot" id="goat"></td>
+            </tr>
+            <tr class="rownine">
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowten">
+                <td rowspan="2" class="spot" onclick="pick('fwin5', 'fwin6')" id="threeseed"><img src="resources/albums/2.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="roweleven">
+                <td rowspan="2" class="spot" id="thirdwinner"><img id="fwin5" src="resources/albums/2.png"><img id="fwin6" src="resources/albums/7.png"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowtwelve">
+                <td rowspan="2" class="spot" onclick="pick('fwin6', 'fwin5')" id="sixseed"><img src="resources/albums/7.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowthirteen">
+                <td class="spot"></td>
+                <td rowspan="2" class="spot" id="finalisttwo"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowfourteen">
+                <td rowspan="2" class="spot" onclick="pick('fwin7', 'fwin8')" id="twoseed"><img src="resources/albums/4.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowfifteen">
+                <td rowspan="2" class="spot" id="fourthwinner"><img id="fwin7" src="resources/albums/4.png"><img id="fwin8" src="resources/albums/1.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowsixteen">
+                <td rowspan="2"  class="spot" onclick="pick('fwin8', 'fwin7')" id="sevenseed"><img src="resources/albums/1.png"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+            <tr class="rowseventeen">
+                <td class="spot"></td>
+                <td class="spot"></td>
+                <td class="spot"></td>
+            </tr>
+        </table>
+        <script src="resources/script.js"></script>
+    </body>
+</html>
+
