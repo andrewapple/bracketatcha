@@ -32,7 +32,7 @@
                     <td class="spot"></td>
                 </tr>
                 <tr class="rowthree">
-<!--ROUND TWO-->    <td rowspan="2" class="spot" id="firstwinner"><img id="fwin1" src="resources/albums/3.png"><img id="fwin2" src="resources/albums/6.png"></td>
+<!--ROUND TWO-->    <td rowspan="2" class="spot" onclick="testPick()" id="firstwinner"><img id="fwin1" src="resources/albums/3.png"><img id="fwin2" src="resources/albums/6.png"></td>
                     <td class="spot"></td>
                     <td class="spot"></td>
                 </tr>
@@ -43,21 +43,21 @@
                 </tr>
                 <tr class="rowfive">
                     <td class="spot"></td>
-<!--3 ROUND 3-->    <td rowspan="2" class="spot" id="finalistone"></td>
+<!--3 ROUND 3-->    <td rowspan="2" class="spot" id="finalistone"><img id="fwin9" src="resources/albums/3.png"><img id="fwin10" src="resources/albums/6.png"><img id="fwin11" src="resources/albums/5.png"><img id="fwin12" src="resources/albums/8.png"></td>
                     <td class="spot"></td>
                 </tr>
                 <tr class="rowsix">
-<!--ROUND ONE-->    <td rowspan="2" class="spot" onclick="pick('fwin3', 'fwin4')" id="fourseed"><img src="resources/albums/5.png"></td>
+<!--ROUND ONE-->    <td rowspan="2" class="spot" onclick="pick2('fwin3', 'fwin4')" id="fourseed"><img src="resources/albums/5.png"></td>
                     <td class="spot"></td>
                     <td class="spot"></td>
                 </tr>
                 <tr class="rowseven">
-<!--ROUND TWO-->    <td rowspan="2" class="spot" id="secondwinner"><img id="fwin3" src="resources/albums/5.png"><img id="fwin4" src="resources/albums/8.png"></td>
+<!--ROUND TWO-->    <td rowspan="2" class="spot" onclick="pick3('fwin9', 'fwin10', 'fwin11', 'fwin12')" id="secondwinner"><img id="fwin3" src="resources/albums/5.png"><img id="fwin4" src="resources/albums/8.png"></td>
                     <td class="spot"></td>
                     <td class="spot"></td>
                 </tr>
                 <tr class="roweight">
-<!--ROUND ONE-->    <td rowspan="2" class="spot" onclick="pick('fwin4', 'fwin3')" id="fiveseed"><img src="resources/albums/8.png"></td>
+<!--ROUND ONE-->    <td rowspan="2" class="spot" onclick="pick2('fwin4', 'fwin3')" id="fiveseed"><img src="resources/albums/8.png"></td>
                     <td class="spot"></td>
                     <td rowspan="4" class="spot" id="goat"></td>
                 </tr>
@@ -109,3 +109,60 @@
     </body>
 </html>
 
+<!--
+    <!DOCTYPE html>
+<html>
+    <head>
+        <title>York HTML Assignment</title>
+        <style>
+            
+            div {
+                text-align: center;
+                margin: auto;
+                width: 60%;
+            }
+            ul {
+                list-style-type: none;
+            }
+            li {
+                border: 1px solid black;
+                border-radius: 7px;
+                background-color: lightblue;
+                margin: 5px 0px;
+                
+            }
+            a {
+                text-decoration: none;
+            }
+            a:visited {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 style="color:darkblue; text-align:center;">My First HTML Page</h1>
+
+        <p>This page isn't merely a page. 
+            It is a prologue to a robust, prosperous 
+            coding career. I will use this page to show how
+            I can use HTML as a way to conquer the
+            ever confounding concept of the <i>blank page</i>.</p>
+
+        <img src="https://yorkdevtraining.com/images/york-solutions/file-20191118-66979-1ca3kkd.jpg" width="200" height="300" alt="Lake and Mountain in Banff National Park">
+        <img src="https://yorkdevtraining.com/images/york-solutions/depositphotos_274265420-stock-photo-single-opened-tube-red-lipstick.jpg" width="200" height="300" alt="Red Lipstick Stock Photo">
+        
+        <br>
+
+        <div>
+            <ul >
+                <a href="https://www.nhl.com/blackhawks/" target="_blank"><li>Chicago Blackhawks: Official Website</li></a>
+                <a href="https://www.fender.com/en-US/start" target="_blank"><li>Fender Guitars: Official Website</li></a>
+                <a href="https://www.studiobinder.com/" target="_blank"><li>Studio Binder: Filmmaking Resources</li></a>
+                <a href="https://www.goodreads.com/" target="_blank"><li>Goodreads: Catalogue of Books</li></a>
+            </ul>
+        </div>
+
+    </body>
+</html>
+-->

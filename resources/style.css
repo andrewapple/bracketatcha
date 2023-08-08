@@ -21,7 +21,7 @@ h2 {
 
 table {
     text-align: center;
-    width: 100%
+    width: 55%
 }
 
 th {
@@ -45,34 +45,86 @@ img:hover {
 
 #fwin1 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin2 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin3 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin4 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin5 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin6 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin7 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #fwin8 {
     visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fwin9 {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fwin10 {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fwin11 {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fwin12 {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .spot {
@@ -121,32 +173,53 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 #firstwinner {
     /* background-color: blueviolet; */
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #secondwinner {
     /* background-color: blueviolet; */
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #thirdwinner {
     /* background-color: blueviolet; */
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #fourthwinner {
     /* background-color: blueviolet; */
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #finalistone {
     border: 5px solid black;
     height: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #finalisttwo {
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #goat {
     border: 5px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
 }
