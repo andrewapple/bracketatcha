@@ -21,7 +21,7 @@ h2 {
 
 table {
     text-align: center;
-    width: 55%;
+    width: 100%;
 }
 
 th {
@@ -29,6 +29,10 @@ th {
     font-size: 3rem;
     color: brown;
 }
+
+/* td {
+    //border: 1px solid pink;
+} */
 
 /* td {
     padding: 0 20px;
@@ -43,10 +47,10 @@ img:hover {
     cursor: pointer;
 }
 
-#fwin1 {
+/* #fwin1 {
     visibility: hidden;
     position: absolute;
-    top: 0;
+    top: 0;f
     left: 0;
 }
 
@@ -125,7 +129,7 @@ img:hover {
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 .spot {
     /* border: 5px solid red; */
@@ -134,8 +138,14 @@ img:hover {
 }
 
 table #eightseed, #fiveseed, #sixseed, #sevenseed {
+    border-top: 5px solid black;
     border-bottom: 5px solid black;
+    border-right: 5px solid black;
 }
+
+/* table #oneseed, #fourseed, #threeseed, #twoseed {
+    border-bottom: 5px solid black;
+} */
 
 
 /* #oneseed {
@@ -172,7 +182,7 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 
 #firstwinner {
     /* background-color: blueviolet; */
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     position: relative;
     top: 0;
     left: 0;
@@ -180,7 +190,7 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 
 #secondwinner {
     /* background-color: blueviolet; */
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     position: relative;
     top: 0;
     left: 0;
@@ -188,7 +198,7 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 
 #thirdwinner {
     /* background-color: blueviolet; */
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     position: relative;
     top: 0;
     left: 0;
@@ -196,14 +206,14 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 
 #fourthwinner {
     /* background-color: blueviolet; */
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     position: relative;
     top: 0;
     left: 0;
 }
 
 #finalistone {
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     height: 150px;
     position: relative;
     top: 0;
@@ -211,7 +221,7 @@ table #eightseed, #fiveseed, #sixseed, #sevenseed {
 }
 
 #finalisttwo {
-    border: 5px solid black;
+    border-bottom: 5px solid black;
     position: relative;
     top: 0;
     left: 0;
